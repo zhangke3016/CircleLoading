@@ -31,11 +31,11 @@ layout文件：
 ```
  xmlns:app="http://schemas.android.com/apk/res-auto"<!--设置命名空间 -->
 
-  <com.zk.hack.LoadingView
-        android:id="@+id/lv_loading"
+  <com.mrzk.circleloadinglibrary.CircleLoadingView
+        android:id="@+id/clv_loading"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_centerInParent="true" 
+        android:layout_centerInParent="true"
         app:textSize="35sp"
         app:textColor="#f60"
         app:strokeWidth="10dp"
