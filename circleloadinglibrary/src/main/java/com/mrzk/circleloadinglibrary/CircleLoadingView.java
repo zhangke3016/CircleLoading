@@ -364,7 +364,7 @@ public class CircleLoadingView extends View{
     /**
      * 用于外部判断当前进度状态
      */
-    interface OnProgressListener{
+    public interface OnProgressListener{
         /**
          * 返回中间部分文字内容
          * @param max
