@@ -5,9 +5,6 @@
 ![进度环](http://img.blog.csdn.net/20160730120609367)
 
 
-引用依赖:
-
-**compile 'com.mrzk.loadingview:circleloadinglibrary:1.1.0'**
 
 attrs.xml:
 ```
@@ -46,7 +43,7 @@ layout文件：
         app:graduationBackgroundColor="#ccc"
         app:graduationWidth="5dp"
         app:graduationCount="10"
-        app:isShowOutRoll="false"
+        app:isShowOutRoll="true"
         />
 ```
 
